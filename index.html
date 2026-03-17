@@ -501,6 +501,42 @@
   }
   .proj-screenshot-placeholder .ph-icon { font-size: 2rem; }
 
+  .project-report-cta {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+  }
+  .report-big-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: min(100%, 420px);
+    padding: 18px 28px;
+    border-radius: 12px;
+    border: 1px solid var(--green);
+    background: linear-gradient(135deg, rgba(0,255,65,.2), rgba(2,168,127,.15));
+    color: var(--white);
+    font-size: 1.12rem;
+    font-weight: 800;
+    letter-spacing: .08em;
+    text-transform: none;
+    box-shadow: 0 0 18px rgba(0,255,65,.2), 0 16px 40px rgba(0,0,0,.45);
+    transition: transform .25s, box-shadow .25s, background .25s;
+  }
+  .report-big-btn:hover {
+    transform: translateY(-4px) scale(1.015);
+    box-shadow: 0 0 26px rgba(0,255,65,.35), 0 24px 54px rgba(0,0,0,.6);
+    background: linear-gradient(135deg, rgba(0,255,65,.28), rgba(2,168,127,.22));
+    opacity: 1;
+  }
+  @media(max-width:640px){
+    .report-big-btn {
+      width: 100%;
+      font-size: 1rem;
+      padding: 16px 18px;
+    }
+  }
+
   /* ==================== PHOTO ==================== */
   .photo-frame {
     position: relative;
@@ -921,6 +957,12 @@
       <div class="proj-link" style="margin-top:auto">🔗 wenxingai.top →</div>
     </a>
 
+  </div>
+
+  <div class="project-report-cta reveal reveal-delay-3">
+    <a class="report-big-btn" href="./量化机器人详细回测报告_2026-03-15.pdf" target="_blank" rel="noopener noreferrer">
+      量化策略报告
+    </a>
   </div>
 
 
