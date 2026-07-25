@@ -431,6 +431,55 @@
     font-family: 'Courier New', monospace;
     letter-spacing: .04em;
   }
+  .proj-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: auto;
+    padding-top: 4px;
+  }
+  .proj-links .proj-link {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .proj-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: auto;
+    padding-top: 8px;
+  }
+  .proj-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 11px 18px;
+    border-radius: 8px;
+    font-size: .84rem;
+    font-weight: 700;
+    letter-spacing: .08em;
+    color: var(--green);
+    background: rgba(0,255,65,.1);
+    border: 1px solid var(--green);
+    box-shadow:
+      0 0 16px rgba(0,255,65,.18),
+      inset 0 0 14px rgba(0,255,65,.06);
+    transition: transform .22s ease, box-shadow .22s ease, background .22s ease;
+    text-decoration: none;
+    font-family: 'Courier New', monospace;
+  }
+  .proj-btn:hover {
+    background: rgba(0,255,65,.16);
+    box-shadow:
+      0 0 28px rgba(0,255,65,.38),
+      inset 0 0 18px rgba(0,255,65,.1);
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+  .proj-btn:active {
+    transform: translateY(0) scale(0.98);
+  }
   .proj-link:hover { opacity: .8; }
   .proj-screenshot {
     width: 100%; border-radius: 8px;
@@ -1534,19 +1583,23 @@
       <div class="proj-link" style="margin-top:auto">🔗 luckyquant.top →</div>
     </a>
 
-    <a class="proj-card reveal reveal-delay-2" href="https://wxhc.me/" target="_blank" rel="noopener">
+    <div class="proj-card reveal reveal-delay-2">
       <div class="proj-number">02</div>
       <div class="proj-tags">
         <span class="proj-tag">命理分析</span>
         <span class="proj-tag">多术交叉验证</span>
+        <span class="proj-tag">OPC 路演</span>
         <span class="proj-tag">独立产品</span>
       </div>
       <div class="proj-title">万象合参 · 多术交叉验证的命理分析平台</div>
       <div class="proj-desc">
         整合多种术数体系，通过交叉验证提供系统化命理分析服务。
       </div>
-      <div class="proj-link" style="margin-top:auto">🔗 wxhc.me →</div>
-    </a>
+      <div class="proj-actions">
+        <a class="proj-btn" href="bp.html" target="_blank" rel="noopener">查看项目bp</a>
+        <a class="proj-link" href="https://wxhc.me/" target="_blank" rel="noopener">🔗 wxhc.me →</a>
+      </div>
+    </div>
 
   </div>
 
