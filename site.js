@@ -529,9 +529,10 @@
     let raf = 0;
     let playing = true;
 
+    const narrow = window.matchMedia("(max-width: 899px)");
     function tick(now) {
       if (!playing) return;
-      const flow = reduce ? 0 : Math.sin(now * 0.00045) * 48;
+      const flow = reduce || narrow.matches ? 0 : Math.sin(now * 0.00045) * 48;
       riverTrack.style.transform = "translateX(" + (flow + grab) + "px)";
       if (!reduce) {
         cards.forEach(function (card, i) {
@@ -606,7 +607,7 @@
     let drag = null;
     cards.forEach(function (el) {
       el.addEventListener("pointerdown", function (e) {
-        if (e.button > 0) return;
+        if (e.button > 0 || e.pointerType === "touch") return;
         el.setPointerCapture(e.pointerId);
         drag = {
           el: el,
