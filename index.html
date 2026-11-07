@@ -1,215 +1,25 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>陈壬翰</title>
-<meta name="description" content="陈壬翰。AI 全栈开发者，产品变现商业逻辑专家，AI 艺术创作家，专业命理师。">
-<meta name="theme-color" content="#070b12">
-<meta property="og:title" content="陈壬翰">
-<meta property="og:description" content="AI 全栈开发者，产品变现商业逻辑专家，AI 艺术创作家，专业命理师。">
-<meta property="og:image" content="https://www.chenrenhan.top/art/hero.jpg">
-<meta property="og:type" content="website">
-<link rel="stylesheet" href="site.css">
-</head>
-<body id="top">
-<a class="skip" href="#works">跳到作品</a>
-<div class="veil" id="veil" aria-hidden="true"></div>
-
-<header class="nav" id="nav">
-  <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">菜单</button>
-  <nav id="nav-links">
-    <span class="nav-glider" id="nav-glider" aria-hidden="true"></span>
-    <a href="#works" data-travel><i>01</i>作品</a>
-    <a href="#projects" data-travel><i>02</i>项目</a>
-    <a href="resume.html"><i>03</i>简历</a>
-  </nav>
-</header>
-
-<main>
-  <section class="hero" id="hero" aria-label="首页">
-    <canvas id="rain" aria-hidden="true"></canvas>
-    <div class="hero-copy">
-      <h1>陈壬翰</h1>
-      <p class="roles"><span>AI全栈开发者</span><span>产品变现商业逻辑专家</span><span>AI艺术创作家</span><span>专业命理师</span></p>
-    </div>
-    <div class="hero-side">
-      <div class="hero-photos">
-        <img src="photos/hero-mountain.jpg" alt="陈壬翰在山前">
-        <img src="photos/hero-court.jpg" alt="陈壬翰坐在廊下">
-      </div>
-      <div class="crt" aria-label="联系方式">
-        <div class="crt-screen">
-          <p class="crt-kicker">HANGZHOU</p>
-          <p>TEL <a href="tel:18922840928">18922840928</a></p>
-          <p>WX&nbsp;&nbsp;crh-000430</p>
-          <p class="crt-cursor">_</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="works">
-    <div class="cat">
-      <div class="river" id="river" data-group>
-        <div class="river-track" id="river-track">
-          <article class="piece is-sutra is-liquid" tabindex="0" data-full="art/full/f369fccfde7e3c33ac05b8cf5b3778a6.jpg">
-            <canvas class="liquid" aria-hidden="true"></canvas>
-            <img src="art/full/f369fccfde7e3c33ac05b8cf5b3778a6.jpg" alt="星夜心经" draggable="false" decoding="async">
-            <span class="piece-name">星夜心经</span>
-          </article>
-          <article class="piece is-sutra is-liquid" tabindex="0" data-full="art/full/aff38ea1fccbfdb32a39f6bf585d30e1.jpg">
-            <canvas class="liquid" aria-hidden="true"></canvas>
-            <img src="art/full/aff38ea1fccbfdb32a39f6bf585d30e1.jpg" alt="呐喊心经" draggable="false" decoding="async">
-            <span class="piece-name">呐喊心经</span>
-          </article>
-          <article class="piece is-sutra" tabindex="0" data-full="art/full/bae3541756a38ebe618a53ca067d99c0.jpg">
-            <img src="art/thumbs/bae3541756a38ebe618a53ca067d99c0.jpg" alt="立体心经" draggable="false" loading="lazy" decoding="async">
-            <span class="piece-name">立体心经</span>
-          </article>
-        </div>
-      </div>
-    </div>
-
-    <div class="cat">
-      <div class="wall wrap" id="wall" data-group>
-        <article class="piece is-poster" tabindex="0" data-full="art/full/25eb8c449d98c490cd858983e132cf28.jpg">
-          <img src="art/thumbs/25eb8c449d98c490cd858983e132cf28.jpg" alt="雷峰夕照" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">雷峰夕照</span>
-        </article>
-        <article class="piece is-poster" tabindex="0" data-full="art/full/66b91990e07d9d0ceeb12a9a36333930.jpg">
-          <img src="art/thumbs/66b91990e07d9d0ceeb12a9a36333930.jpg" alt="大佛" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">大佛</span>
-        </article>
-      </div>
-    </div>
-
-    <div class="cat">
-      <div class="sheet-bar wrap">
-        <button class="tool" id="restick" type="button">贴回</button>
-      </div>
-      <div class="sheet wrap" id="sheet" data-group>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/07653dc972db2dec91e501c534b4466f.jpg">
-          <img src="art/thumbs/07653dc972db2dec91e501c534b4466f.jpg" alt="旧音响" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">旧音响</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/3692012ab2bdd87e85f180e8dcddd6de.jpg">
-          <img src="art/thumbs/3692012ab2bdd87e85f180e8dcddd6de.jpg" alt="窗与龟背竹" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">窗与龟背竹</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/2f9e595014a0ab50794965f1deb7c827.jpg">
-          <img src="art/thumbs/2f9e595014a0ab50794965f1deb7c827.jpg" alt="花阶与黑白猫" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">花阶与黑白猫</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/3ca99b330b9a9f02d9111595cf403247.jpg">
-          <img src="art/thumbs/3ca99b330b9a9f02d9111595cf403247.jpg" alt="湖边人声" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">湖边人声</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/797e4f61d3d12ad928cd65352a8104f8.jpg">
-          <img src="art/thumbs/797e4f61d3d12ad928cd65352a8104f8.jpg" alt="树荫露台" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">树荫露台</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/7e94b04073f24b7fd2d2300ae6630c31.jpg">
-          <img src="art/thumbs/7e94b04073f24b7fd2d2300ae6630c31.jpg" alt="石门槛" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">石门槛</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/8f345433001f12462705636f09b0c566.jpg">
-          <img src="art/thumbs/8f345433001f12462705636f09b0c566.jpg" alt="红门与门神" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">红门与门神</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/52fde3ccd6d7f643e759d625049236d3.jpg">
-          <img src="art/thumbs/52fde3ccd6d7f643e759d625049236d3.jpg" alt="窗与龟背竹 · 其二" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">窗与龟背竹 · 其二</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/d37bde69c1d1eabd93cca32e517eaaad.jpg">
-          <img src="art/thumbs/d37bde69c1d1eabd93cca32e517eaaad.jpg" alt="木桌白灯" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">木桌白灯</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/a8876b23e1caa8feeb31daaf9aa0013b.jpg">
-          <img src="art/thumbs/a8876b23e1caa8feeb31daaf9aa0013b.jpg" alt="流苏与旧皮" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">流苏与旧皮</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/9537aba90b39206f3d2f2bfbbbba5b4a.jpg">
-          <img src="art/thumbs/9537aba90b39206f3d2f2bfbbbba5b4a.jpg" alt="藤椅与灯" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">藤椅与灯</span>
-        </article>
-        <article class="piece is-sticker" tabindex="0" data-full="art/full/b6cce1e88f0b3641e617ee9d19a5467c.jpg">
-          <img src="art/thumbs/b6cce1e88f0b3641e617ee9d19a5467c.jpg" alt="陶杯与木纹" draggable="false" loading="lazy" decoding="async">
-          <span class="piece-name">陶杯与木纹</span>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="projects" id="projects">
-    <div class="wrap">
-      <h2>项目</h2>
-      <div class="proj-list">
-        <article class="proj">
-          <img src="logos/wxhc.jpg" alt="" width="512" height="512">
-          <div>
-            <h3>万象合参</h3>
-            <p>四术合参。八字、紫微、西占、吠陀。</p>
-          </div>
-          <div class="proj-links"><a href="https://wxhc.me/" target="_blank" rel="noopener noreferrer">打开</a></div>
-        </article>
-        <article class="proj">
-          <img src="logos/ora78-512.png" alt="" width="512" height="512">
-          <div>
-            <h3>ora78</h3>
-            <p>塔罗沙龙。</p>
-          </div>
-          <div class="proj-links"><a href="https://ora78.cc/" target="_blank" rel="noopener noreferrer">打开</a></div>
-        </article>
-        <article class="proj">
-          <img src="logos/lingtai-seal.jpg" alt="" width="512" height="512">
-          <div>
-            <h3>灵台明镜</h3>
-            <p>读经。敲木鱼记诵。</p>
-          </div>
-          <div class="proj-links"><a href="https://emituofo.fun/" target="_blank" rel="noopener noreferrer">打开</a></div>
-        </article>
-        <article class="proj">
-          <img src="logos/luckyquant.svg" alt="" width="512" height="512">
-          <div>
-            <h3>LuckyQuant</h3>
-            <p>AI 量化。策略、信号、回测。</p>
-          </div>
-          <div class="proj-links"><a href="https://luckyquant.top/" target="_blank" rel="noopener noreferrer">打开</a></div>
-        </article>
-        <article class="proj">
-          <img src="logos/comment-catcher.png" alt="" width="72" height="72">
-          <div>
-            <h3>Comment Catcher</h3>
-            <p>从 TikTok、Instagram、Reddit、LinkedIn 里捞高意向评论。</p>
-          </div>
-          <div class="proj-links"><a href="https://comment-catcher.pages.dev/" target="_blank" rel="noopener noreferrer">打开</a></div>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <section class="door" aria-label="简历">
-    <div class="wrap">
-      <h2>档案</h2>
-      <p>技能、经历和教育，收成可以翻开的档案。</p>
-      <a class="btn btn-file" href="resume.html">简历</a>
-    </div>
-  </section>
-</main>
-
-<p class="colophon">陈壬翰 · 杭州</p>
-
-<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-labelledby="lb-title">
-  <button type="button" id="lb-prev" class="lb-prev">上一张</button>
-  <figure class="lb-stage">
-    <img id="lb-img" alt="">
-    <figcaption><span id="lb-title"></span><span id="lb-count"></span></figcaption>
-  </figure>
-  <button type="button" id="lb-next" class="lb-next">下一张</button>
-  <button type="button" id="lb-close" class="lb-close">关闭</button>
-</div>
-
-<script src="site.js"></script>
-</body>
+<!doctype html>
+<html lang="zh-CN" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>陈壬翰</title>
+    <meta name="description" content="陈壬翰。AI 全栈开发者，产品变现商业逻辑专家，AI 艺术创作家，专业命理师。杭州。" />
+    <meta name="theme-color" content="#0D0E10" />
+    <meta property="og:title" content="陈壬翰" />
+    <meta property="og:description" content="AI 全栈开发者，产品变现商业逻辑专家，AI 艺术创作家，专业命理师。" />
+    <meta property="og:type" content="website" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230D0E10'/%3E%3Crect x='10' y='10' width='12' height='12' rx='3' fill='%23C8F65D' transform='rotate(45 16 16)'/%3E%3C/svg%3E" />
+    <script>
+      // 在首帧渲染前应用主题，避免闪烁
+      try {
+        var t = localStorage.getItem('crh-theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
