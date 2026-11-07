@@ -44,7 +44,7 @@ export function IntroTile({ index, onViewWork }: { index: number; onViewWork: ()
       <div className="intro-foot">
         <p className={`status ${availability.open ? 'is-open' : ''}`}>
           <span className="dot" aria-hidden="true" />
-          {tr(availability.text, 'Employed, OPC · Jinyu Chuangwei, Hangzhou · Ops, frontend, and storefronts')}
+          {tr(availability.text, availability.textEn)}
         </p>
         <div className="actions">
           <button type="button" className="btn primary" onClick={onViewWork}>

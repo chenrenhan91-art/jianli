@@ -33,7 +33,7 @@ export const profile = {
     en: ['No coding background, but exceptional logical thinking and expression.', 'A practical idealist who finds efficiency in chaos.'],
   },
   stack: ['跨境电商', 'AI 应用', '金融数据', '命理'],
-  availability: { open: true, text: '在职 OPC · 杭州金羽创为 · 运营 / 前端 / 独立站设计开发' },
+  availability: { open: true, text: '求职方向：产品经理 / 全栈开发 / 独立站设计开发等', textEn: 'Seeking roles in product management, full-stack development, and independent storefront design and development' },
   phone: '18922840928',
   wechat: 'crh-000430',
   resumeUrl: './legacy/resume.html',
