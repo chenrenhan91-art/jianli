@@ -69,6 +69,13 @@ h1 { view-transition-name: person; }
   font-weight: 700;
   letter-spacing: -0.03em;
 }
+.archive-intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 8px;
+}
 .back {
   flex: none;
   display: inline-flex;
@@ -83,7 +90,7 @@ h1 { view-transition-name: person; }
   letter-spacing: .06em;
 }
 .back:hover { background: rgba(243, 228, 196, .18); }
-.lede { margin: 8px 0 0; color: #d9cbb6; }
+.lede { margin: 0; color: #d9cbb6; }
 
 .cabinet {
   display: flex;
@@ -176,7 +183,8 @@ h1 { view-transition-name: person; }
 .photos figcaption { margin-top: 6px; color: var(--muted); font-size: 14px; }
 
 @media (max-width: 720px) {
-  .archive-head { gap: 12px; }
+  .archive-intro { gap: 12px; }
+  .back { padding: 0 14px; }
   .archive h1 { font-size: 2.1rem; }
   .archive { width: min(100% - 24px, 980px); }
   .cabinet {
